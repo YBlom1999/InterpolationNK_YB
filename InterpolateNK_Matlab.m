@@ -26,7 +26,7 @@ N_osc = 3;
 Eg_wanted = 1.6:0.01:1.7;
 
 
-%% Loading files from the dataset
+%% Loading files from the datafolder
 Nsamples = length(Eg);
 wav = 300:5:1200;
 n_wav = zeros(length(wav),Nsamples);
