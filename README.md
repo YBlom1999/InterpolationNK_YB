@@ -1,20 +1,20 @@
 # InterpolationNK_YB
-This repository contains the implementation the interpolation method developed by Y. Blom et al. 
-This implementation allows you to predict the complex refractive index of perovskite for a continious range of bandgap energies, based on the measured refractive index of a few samples.
-The full details of this implementation are described in [1].
+This repository contains an implementation of the interpolation method developed by Y. Blom et al. 
+It allows for predicting the complex refractive index of perovskite across a continuous range of bandgap energies, based on refractive index measurements from a few samples. 
+For detailed information, refer to [1].
 
-To use this implementation, either the matlab or the python script can be used. 
-Both scripts contain a block that is called user inputs. This sections allows the user to change the used data files, the degree of the parameter fitting, the number of considered oscillators, and the desired bandgap energies for which the refractive index will be predicted.
-The measured refractive index for a different bandgap energies should be stored in the data-folder as csv-file.
-As example, the measured complex refractive index of three perovskite samples can be used, which are taken from Manzoor et al. [2].
+To utilize this implementation, you can use either the MATLAB or Python script provided. 
+Both scripts feature a section labeled "user inputs," enabling users to adjust data files, degree of parameter fitting, number of considered oscillators, and desired bandgap energies for refractive index prediction. 
+Measured refractive index data for various bandgap energies should be stored as CSV files in the data folder. 
+For instance, you can use refractive index data from three perovskite samples sourced from Manzoor et al. [2] as examples.
 
-If you use either one of this scripts, please refer to article [1].
+When using these scripts, please cite article [1].
 
-If there are any questions regarding the method or the implementation, you can send them to y.blom@tudelft.nl.
+For questions about the method or implementation, feel free to reach out to y.blom@tudelft.nl.
 
-Hopefully, this method can help you further in your research!
+We hope this method is helpful in your research!
 
-With kind regards,
+Best regards,
 
 Youri Blom
 
