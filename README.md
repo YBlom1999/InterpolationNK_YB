@@ -1,4 +1,4 @@
-# InterpolationNK_YB
+# Interpolation of the complex refractive index w.r.t. the bandgap energy
 This repository contains an implementation of the interpolation method developed by Y. Blom et al. 
 It allows for predicting the complex refractive index of perovskite across a continuous range of bandgap energies, based on refractive index measurements from a few samples. 
 For detailed information, refer to [1].
